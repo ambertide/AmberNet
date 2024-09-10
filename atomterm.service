@@ -4,8 +4,8 @@ After=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/egeemirozkan24/AtomTerm
-ExecStart=/home/egeemirozkan24/AtomTerm/start.sh
+WorkingDirectory=/home/egeemirozkan24/AmberNet
+ExecStart=/home/egeemirozkan24/AmberNet/start.sh
 Restart=on-failure
 RestartSec=30s
 
