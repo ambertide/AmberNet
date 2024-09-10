@@ -1,0 +1,34 @@
+{
+    "name": "ambertide/atomterm",
+    "description": "Telnet server",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "NavigableSocket\\": "src/NavigableSocket",
+            "TelnetSocket\\": "src/TelnetSocket",
+            "Navigation\\": "src/Navigation",
+            "FSNavigation\\": "src/FSNavigation",
+            "Config\\": "src/Config"
+        }
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-sockets": "*"
+    },
+    "archive": {
+        "exclude": [
+            "menu/",
+            ".github/",
+            "*.service",
+            "Dockerfile",
+            "refresh.sh",
+            "start.sh"
+        ]
+    },
+    "scripts": {
+        "serve": "@php index.php"
+    },
+    "bin": [
+        "bin/serve.php"
+    ]
+}

@@ -1,0 +1,17 @@
+About
+
+This is the minimal version of amberti.de website written
+in AtomTerm, an AGPL-v3 project that can be found under
+https://github.com/ambertide/AtomTerm.
+
+You can use arrow keys to navigate, and left arrow to exit.
+
+The source code of this website in particular can be found
+in https://github.com/ambertide/AmberNet. It is served
+over GCP using Github Actions and systemd.
+
+If you somehow manage to crash the server because I missed
+something, wait for thirty seconds and it should return.
+
+Also this runs on a spot VM because I am a cheapstake, so
+it might literally go away.

@@ -1,0 +1,6 @@
+Chip8
+
+https://github.com/ambertide/chip8
+
+This one is in Go, because it is a genuinely fun language,
+anyway, this is a CHIP8 emulator.

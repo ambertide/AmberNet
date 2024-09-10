@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c922c92affb12da06672243b8d02452b",
+    "packages": [
+        {
+            "name": "ambertide/atomterm",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ambertide/AtomTerm.git",
+                "reference": "bebf10bf758aa893d08c26ccbb607c399fa0d825"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ambertide/AtomTerm/zipball/bebf10bf758aa893d08c26ccbb607c399fa0d825",
+                "reference": "bebf10bf758aa893d08c26ccbb607c399fa0d825",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sockets": "*",
+                "php": ">=8.3"
+            },
+            "bin": [
+                "bin/serve.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Config\\": "src/Config",
+                    "Navigation\\": "src/Navigation",
+                    "FSNavigation\\": "src/FSNavigation",
+                    "TelnetSocket\\": "src/TelnetSocket",
+                    "NavigableSocket\\": "src/NavigableSocket"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Telnet server",
+            "support": {
+                "issues": "https://github.com/ambertide/AtomTerm/issues",
+                "source": "https://github.com/ambertide/AtomTerm/tree/v0.2.0"
+            },
+            "time": "2024-09-10T13:36:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

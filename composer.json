@@ -1,0 +1,13 @@
+{
+    "name": "ambertide/portfolio",
+    "description": "Personal website served over telnet for funs",
+    "authors": [
+        {
+            "name": "Ege Özkan",
+            "email": "egeemirozkan24@gmail.com"
+        }
+    ],
+    "require": {
+        "ambertide/atomterm": ">=0.1.1"
+    }
+}
