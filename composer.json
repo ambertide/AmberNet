@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "ambertide/atomterm": "2.0.0"
+        "ambertide/atomterm": "v0.2.0"
     }
 }
