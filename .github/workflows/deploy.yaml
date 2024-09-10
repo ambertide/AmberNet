@@ -34,5 +34,5 @@ jobs:
         run: echo "$GCP_KEY" > /tmp/gcp_key && chmod 400 /tmp/gcp_key
 
       - name: Trigger Restart
-        run: ssh -t -o StrictHostKeyChecking=no -i /tmp/gcp_key $GCP_USERNAME@$GCP_DOMAIN "cd /home/$GCP_USERNAME/AmberNet && sudo bash refresh.sh"
+        run: ssh -t -o StrictHostKeyChecking=no -i /tmp/gcp_key $GCP_USERNAME@$GCP_DOMAIN "if [ ! -d \"/home/$GCP_USERNAME/AmberNet\" ]; then git clone https://github.com/ambertide/AmberNet.git /home/$GCP_USERNAME/AmberNet; fi && cd /home/$GCP_USERNAME/AmberNet && sudo bash refresh.sh"
  
