@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "ambertide/atomterm": "*"
+        "ambertide/atomterm": ">=0.2.3"
     }
 }

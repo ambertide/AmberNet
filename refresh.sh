@@ -1,7 +1,7 @@
 #! /bin/env sh
 
 git pull
-php ../composer.phar install
+php ../composer.phar update
 
 if [ ! -f /etc/systemd/system/atomterm.service ]; then
     sudo cp atomterm.service /etc/systemd/system/atomterm.service
