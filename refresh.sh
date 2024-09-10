@@ -1,7 +1,6 @@
 #! /bin/env sh
 
 git pull
-php ../composer.phar 
 php ../composer.phar install
 
 if [ ! -f /etc/systemd/system/atomterm.service ]; then

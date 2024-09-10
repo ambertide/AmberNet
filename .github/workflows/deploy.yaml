@@ -18,18 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.3'
-          tools: composer
-      
-      - name: Validate autoload setup
-        run: composer validate --strict
-      
-      - name: Build the project
-        run: composer dump-autoload
-
       - name: Setup SSH Key
         run: echo "$GCP_KEY" > /tmp/gcp_key && chmod 400 /tmp/gcp_key
 
