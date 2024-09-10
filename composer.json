@@ -1,6 +1,8 @@
 {
     "name": "ambertide/portfolio",
     "description": "Personal website served over telnet for funs",
+    "license": "proprietary",
+    "type": "project",
     "authors": [
         {
             "name": "Ege Özkan",
@@ -8,6 +10,6 @@
         }
     ],
     "require": {
-        "ambertide/atomterm": ">=0.1.1"
+        "ambertide/atomterm": "2.0.0"
     }
 }
